@@ -1,0 +1,34 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+catalogs:
+  default:
+    '@tsconfig/node24':
+      specifier: 24.0.6
+      version: 24.0.6
+
+importers:
+
+  .:
+    devDependencies:
+      '@tsconfig/node24':
+        specifier: 'catalog:'
+        version: 24.0.6
+
+  packages/a:
+    devDependencies:
+      '@tsconfig/node24':
+        specifier: 'catalog:'
+        version: 24.0.6
+
+packages:
+
+  '@tsconfig/node24@24.0.6':
+    resolution: {integrity: sha512-/SK4JuydRQLGSCq7+hbiQ8fdAVR4Suv5EcBvkIAG3zo3GbXQvGoSclz4olL12Ar4OpH8gwGYJ67P4wwQqBRxKw==}
+
+snapshots:
+
+  '@tsconfig/node24@24.0.6': {}
