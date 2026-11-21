@@ -18,4 +18,4 @@ The `package.json` files that reference the catalog entry are renamed in the sam
 
 ## Link to the Renovate discussion
 
-TBD
+https://github.com/renovatebot/renovate/discussions/48267
